@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AdrianM11-Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">ADRIAN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/cara4.png" alt="">
+            </div>
+            <h1>ADRIAN MARTINEZ</h1>
+            <h2>Ingeniero de Software - Frontend - UI/UX</h2>
+            <div class="redes">
+                <a href="https://wa.me/qr/6UO77MLAKVZVI1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/jQtq5kP59cMMt37e/?mibextid=qi2Omg"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/adri11jmartinez?igsh=MXFiaTNheWs3dW5xNg=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://t.me/Zajandija"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://github.com/adri11032003"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Adrian Martinez.</span> Ingeniero técnico en informática egresado de la Universidad del IUJO 
+                 e ingeniero civil egresado de la Universidad Centro Occidental "Lisandro Alvarado" donde he desarrollado 
+                 habilidades en  el área de programación,redes,análisis de datos, desarrollos estructurales, inspección y control de obras,entre otros.
+                 Me considero una persona proactiva, creativa, orientada a resultados óptimos, lo que me ha permitido enfrentar desafíos y encontrar soluciones efectivas.
+                 Estoy emocionado por la oportunidad de contribuir con mi experiencia y conocimientos en el mundo, además de estar convencido de que puedo aportar valor 
+                 y seguir creciendo profesionalmente.
+ 
+             </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaño</strong>
+                            11-03-2003
+                        </li>
+                        <li>
+                            <strong>Idioma</strong>
+                            Español : nativo
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            0424-5323399
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            adria.11.ajmm@gmail.com
+                        </li>
+                
+                        <li>
+                            <strong>Dirección</strong>
+                            Urb.Obelisco-Lara,Barquisimeto
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="Adrian Jesus curriculo.pdf" download>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+                 </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Técnicas </h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C# </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>68%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>77%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Primaria y Segundaria </h4>
+                        <span class="casa">U.E.I.Nueva Segovia</span>
+                        <span class="fecha">2010 - 2021</span>
+                        <p>El instituto educativo "Nueva Segovia" fue donde curse mi preescolar, primaria y secundaria,
+                        aprendíendo muchas cosas que me ayudaron a crecer tanto en lo académico como en lo personal. 
+                         Siempre me esforcé por obtener buenas calificaciones, lo que me enseñó la importancia de la 
+                        dedicación y la disciplina. Me gustaba participar en actividades extracurriculares, como el 
+                        club de deporte.Además, aprendí a gestionar mi tiempo entre los estudios y mis hobbies, como
+                        el deporte y la lectura. Participar en competencias académicas también fue una gran experiencia,
+                        ya que me permitió conocer a otros estudiantes con intereses similares y aprender a manejar la
+                        presión de competir.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Carrera : Informática </h4>
+                        <span class="casa">Instituto Universitario Jesús Obrero de Barquisimeto</span>
+                        <span class="fecha">2022 - 2025</span>
+                        <p>Adquirí habilidades esenciales en la carrera universitaria de informática que han moldeado 
+                        mi desarrollo personal y profesional. Participé activamente en proyectos grupales de programación 
+                        y desarrollo de software, donde aprendí a colaborar y a comunicarme efectivamente con mis compañeros.
+                        Además,enfrenté desafíos académicos que me enseñaron la importancia de la gestión del tiempo, 
+                        especialmente al cumplir con plazos ajustados en proyectos.También tuve la oportunidad de realizar 
+                        prácticas profesionales, donde apliqué mis  conocimientos en un entorno real  y aprendí sobre las dinámicas del trabajo  en la industria. Estas 
+                        vivencias no solo enriquecieron  mi formación académica, sino que también me prepararon para enfrentar
+                        el mundo laboral.</p>
+                            <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Carrera : Ing. Civil</h4>
+                        <span class="casa">Universidad Centro Occidental "Lisandro Alvarado"-Decanato de Ingeniería Civil y Urbamismo</span>
+                        <span class="fecha">2022 - 2027</span>
+                        <p>Participé activamente en proyectos grupales de diseño y construcción, en donde se trabajaba en equipo
+                        para resolver problemas complejos relacionados con las infraestructuras.  Además adquiri habilidades de 
+                        modelados digitales haciendo uso de programas como AutoCAD,Blender, entre otros. También tuve la oportunidad 
+                        de participar en conferencias y presentaciones sobre temas de ingeniería civil, lo que me ayudó a mejorar mis
+                         habilidades de oratoria y argumentación, cruciales en este campo. Cada uno de estas experiencias me brindaron herramientas 
+                         tanto en la parte digital como en el trabajo de campo, dandome una noción de como implementar mis conocimientos y 
+                         habilidades en el entorno profecional.  </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral y Proyectos</h3>
+                    <div class="item der">
+                        <h4>Repartidor</h4>
+                        <span class="casa">Bicylibery</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Ejerci mi labor como repartidor de alimentos,objetos,encomiendas,entre otros;en el área de Barquisimeto y Cabudare.
+                            Dure aproximadamente un año laborando en la empresa, en donde aprendi a valorar más aun el uso del tiempo de las personas,
+                            ya que  cada una de las entregas se tenia que realizar en un horario y tiempo estipulado , además de tener una gran responsabilidad
+                        con el objeto a trasladar y que este llegue en perfectas condiciones.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Atención al cliente</h4>
+                        <span class="casa">Panadería Foccacia</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Ejerci mi labor como atención al cliente, ayudante de cocina, despachador y ayudante de panadería,aprendiendo en cada una 
+                            de esas área diferentes habilidades, pero especialmente el buen trato que se le debe dar a el cliente de la empresa y el 
+                            buscar soluciones efectivas y favorables tanto para la empresa como para que el cliente quede satisfecho.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Proyecto Full stack</h4>
+                        <span class="casa">TuCondominio</span>
+                        <span class="fecha">2023-2024</span>
+                        <p>Proyecto de programación desarrollado con el objetivo de implementar un programa que satisfaga y facilite las necesidades 
+                            de un administrador de condominio, implementado en el área administrativa y contable de la Urbanización a abordar.  </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                <a href="https://github.com/adri11032003" target="_blank">
+                    <img src="img/casas.png" alt="">
+                    <div class="overlay">
+                        <h3>Tucondominio</h3>
+                        <p>Proyecto</p>
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Juego de memoria</h3>
+                        <p>Proyecto</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Futuros proyetos</h3>
+                        <p>En Desarrollo</p>
+                    </div>
+                </div>
+            </div>
+                <h2>TECNOLOGÍAS DE GESTIÓN DE TRABAJO</h2>
+                <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Gestor de versiones</h3>
+                        <p>Ramas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo colaborativo</h3>
+                        <p>Alojador</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Herramienta visual</h3>
+                        <p>Gestor de proyectos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form name="formulario-contacto" netlify>
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                </div>
+                </form>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                               Urb.Obelisco - Lara, Barquisimeto
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 0424 - 5323399 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: adrian.11.ajmm@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://wa.me/qr/6UO77MLAKVZVI1"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/share/jQtq5kP59cMMt37e/?mibextid=qi2Omg"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/adri11jmartinez?igsh=MXFiaTNheWs3dW5xNg=="><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://t.me/Zajandija"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://github.com/adri11032003"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
